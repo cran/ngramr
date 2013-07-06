@@ -1,12 +1,12 @@
-b2120814e1e34d81b80c2591f929cd54 *DESCRIPTION
+1c928a255653815d9c8860beeff8e605 *DESCRIPTION
 c87506c30e2bd8e0f77246ef97d612c0 *NAMESPACE
-287433c3d17e0ef60ead44e527445b5d *NEWS
+38142fc49909865912e0920aa4620cfd *NEWS
 edb9420e415e6c619e3c17f58bead94a *R/add_count.R
 f498138dfdab03358d5210cc262845ec *R/data.R
 db38fa0653016ab517a01037836fbbb7 *R/ggram.R
 4a681ab7ec4ed25d0d72a9f1d4d535b2 *R/help.R
-12deb18361dc127eee8b240bcaf0774c *R/ngram.R
-02a1d6c227486346ed51d6f9fdc85fda *R/ngrami.R
+8bccfbb8234966a141b012de9a8fbeae *R/ngram.R
+3e8657d47a51d52b5817a250b1940388 *R/ngrami.R
 46559cd88b78de2d74a770627340e290 *R/ngramw.R
 d51e8ba17817b1d7084de90ad0c525f7 *R/print.R
 6b5946bae8c363e62e2a17d29a09d995 *R/sysdata.rda
@@ -15,7 +15,7 @@ d51e8ba17817b1d7084de90ad0c525f7 *R/print.R
 e800c46f80c4d2d89fa0a01d916f196e *man/corpuses.Rd
 97acc2307cf75d7b502bb3dd093fb7ae *man/ggram.Rd
 7b6fe8ee3e498848dc9e1aecb36c269b *man/hacker.Rd
-5cedb12d5dbb7f484ebe3312f68c37c9 *man/ngram.Rd
+e3e84d85529c73c57ce5dfd4ee232e6d *man/ngram.Rd
 7e2c66003215c0fd880b8e6ef50392c6 *man/ngrami.Rd
 7b61083d7d48923cd8e11c849783321e *man/ngramr.Rd
 c0220343fbec010b8e6e8176bf0eeaad *man/ngramw.Rd
