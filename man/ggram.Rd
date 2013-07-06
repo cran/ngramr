@@ -2,9 +2,8 @@
 \alias{ggram}
 \title{Plot n-gram frequencies}
 \usage{
-  ggram(phrases, ignore_case = FALSE, code_corpus = FALSE,
-    geom = "line", geom_options = list(), lab = NA,
-    google_theme = FALSE, ...)
+ggram(phrases, ignore_case = FALSE, code_corpus = FALSE, geom = "line",
+  geom_options = list(), lab = NA, google_theme = FALSE, ...)
 }
 \arguments{
   \item{phrases}{vector of phrases. Alternatively, phrases
@@ -32,18 +31,19 @@
   \item{...}{additional parameters passed to \code{ngram}}
 }
 \description{
-  \code{ggram} downloads data from the Google Ngram Viewer
-  website and plots it in \code{ggplot2} style.
+\code{ggram} downloads data from the Google Ngram Viewer
+website and plots it in \code{ggplot2} style.
 }
 \details{
-  Google generated two datasets drawn from digitised books
-  in the Google books collection. One was generated in July
-  2009, the second in July 2012.  Google will update these
-  datasets as book scanning continues.
+Google generated two datasets drawn from digitised books in
+the Google books collection. One was generated in July
+2009, the second in July 2012.  Google will update these
+datasets as book scanning continues.
 }
 \examples{
 ggram(c("hacker", "programmer"), year_start = 1950)
 
+\dontrun{
 # Changing the geom.
 ggram(c("cancer", "fumer", "cigarette"),
       year_start = 1900,
@@ -55,13 +55,13 @@ require(ggplot2)
 ggram(c("cancer", "smoking", "tobacco"),
       year_start = 1900,
       corpus = "eng_fiction_2012",
-      geom = "point",
+      geom = "point", smoothing = 0,
       geom_options = list(alpha = .5)) +
   stat_smooth(method="loess", se = FALSE)
 
 # Setting the layers manually.
 ggram(c("cancer", "smoking", "tobacco"),
-      year_start = 1900,
+      year_start = 1900, smoothing = 0,
       corpus = "eng_fiction_2012",
       geom = NULL) +
   stat_smooth(method="loess", se=FALSE, span = 0.3)
@@ -77,5 +77,6 @@ ggram(p, year_start = 1800, google_theme = TRUE) +
 # Pass ngram data rather than phrases
 hacker
 ggram(hacker) + facet_wrap(~ Corpus)
+}
 }
 

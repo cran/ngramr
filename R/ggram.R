@@ -22,6 +22,7 @@
 #' @examples 
 #' ggram(c("hacker", "programmer"), year_start = 1950)
 #' 
+#' \dontrun{
 #' # Changing the geom.
 #' ggram(c("cancer", "fumer", "cigarette"),
 #'       year_start = 1900,
@@ -33,13 +34,13 @@
 #' ggram(c("cancer", "smoking", "tobacco"),
 #'       year_start = 1900, 
 #'       corpus = "eng_fiction_2012", 
-#'       geom = "point", 
+#'       geom = "point", smoothing = 0, 
 #'       geom_options = list(alpha = .5)) + 
 #'   stat_smooth(method="loess", se = FALSE)
 #'  
 #' # Setting the layers manually.
 #' ggram(c("cancer", "smoking", "tobacco"),
-#'       year_start = 1900, 
+#'       year_start = 1900, smoothing = 0,
 #'       corpus = "eng_fiction_2012", 
 #'       geom = NULL) +
 #'   stat_smooth(method="loess", se=FALSE, span = 0.3)
@@ -55,7 +56,7 @@
 #' # Pass ngram data rather than phrases
 #' hacker
 #' ggram(hacker) + facet_wrap(~ Corpus)
-
+#' }
 #' @export
 
 ggram <- function(phrases, ignore_case = FALSE, code_corpus = FALSE, geom = "line",
