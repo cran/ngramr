@@ -1,3 +1,43 @@
+ngramr 1.7.2
+------------
+* Change download code to use 'url' to ensure code works behind a proxy server
+* Addressed CRAN submission requirements
+
+ngramr 1.7.1
+------------
+* Change year_start default to 1800 in documentation
+
+ngramr 1.7.0
+------------
+* Comprehensive refactor of underlying code
+* More robust error/warning handling
+* Dropped the "tag" argument from ngram functions
+
+ngramr 1.6.5
+------------
+Fix case_sensitive attribute
+
+ngramr 1.6.4
+------------
+Fix error in corpus count dataset
+
+ngramr 1.6.0
+------------
+Update to address issue (#26) resulting from change in the format of
+Google Ngram Viewer webpage
+
+ngramr 1.5.0
+------------
+Incorporated eMPee584 changes (https://github.com/seancarmody/ngramr/pull/22):
+* Make wildcard searches expand to all terms
+* Error out on server answer "Please try again later."    1a655f3
+* Fix setting default corpus. 0b22dc4
+* scale functions: do not explicitly set name, allow overwrite.   3a21061
+* Allow passing through additional parameters to ngram_single.    ac6b1cc
+* For wildcard searches, drop the cumulated (All) column
+
+Added travis-ci testing
+
 ngramr 1.4.5
 ------------
 
