@@ -1,3 +1,11 @@
+ngramr 1.7.4
+------------
+* Imposed version dependency for dplyr to ensure relocate available
+
+ngramr 1.7.3
+------------
+* Updated documentation to provide details of return values
+
 ngramr 1.7.2
 ------------
 * Change download code to use 'url' to ensure code works behind a proxy server
