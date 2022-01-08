@@ -1,13 +1,13 @@
-0439f1f5c28ebcaf795b5aa1bddd459a *DESCRIPTION
+fb112921014d8e74436520ccca087ff4 *DESCRIPTION
 11e21370752ce0e6176db6db319fae73 *NAMESPACE
-582040ac1892786904648b8bd7228953 *NEWS
+4dec4d1589b9aa20f5d68a3750716e1e *NEWS
 139acfb604c5287e426bde697c2dfe1e *R/add_count.R
 9d8ccdcd2a11f37eaa97a4054ba80f4e *R/data.R
 45c0fee4b554a7b6573e73e5ddcfe80e *R/ggram.R
 2c1a652577b249ef5784babda339eacc *R/methods.R
-c2b641e8ab14d9d6a0897c28a5b54d31 *R/ngram.R
-fa877fc12c60dfc2b0c85791fc03f23f *R/ngrami.R
-6ab31db7267ab18cb25eff504c39be39 *R/ngramr-package.R
+e96fef4ada80d290d2487584361ab12f *R/ngram.R
+5a7079c5a6de6af7edeac8700eada48c *R/ngrami.R
+f5f2cfc5e4a4a752f1ed37b71d041b4a *R/ngramr-package.R
 d4683a7c9f7abcdd7ce8910d985623c3 *R/ngramw.R
 a10b5caa4fe842102acaed523b70aac4 *R/sysdata.rda
 f1fcbe1dae7ba6c388efeb2a10557c14 *R/themes.R
@@ -26,7 +26,7 @@ c3978703d8f40f2679795335715e98f4 *man/figures/lifecycle-experimental.svg
 1afb36c7ec511f84c47686df5e3eb331 *man/ggram.Rd
 b5a842db10e2f4a73d6b56b0a05f35c1 *man/hacker.Rd
 3f1dffbb3e9b8302bacdc0684aa396bc *man/ngram.Rd
-c3338c175eecafddae4977090cca6b5c *man/ngrami.Rd
+9adfe5ccacad2cd43c1de14afe521556 *man/ngrami.Rd
 aa3d122960e9eaa2f8e68edb015bed43 *man/ngramr.Rd
 11b65cc4a1743ca6983998b1e05e0d64 *man/ngramw.Rd
 fab364a2e3cc97171875077d148efb6b *man/print.ngram.Rd
