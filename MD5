@@ -1,11 +1,11 @@
-7284210e96880f87a7903bf95d2ebcd4 *DESCRIPTION
+1437ce97f6bbeaf59f4f125b509eb327 *DESCRIPTION
 11e21370752ce0e6176db6db319fae73 *NAMESPACE
-4faa60c92232a8d9306a850a95cf310d *NEWS.md
+1985f591f0245c4c0ab204ae1a18284f *NEWS.md
 139acfb604c5287e426bde697c2dfe1e *R/add_count.R
 9d8ccdcd2a11f37eaa97a4054ba80f4e *R/data.R
 792aef95af9646761d99980cc78c4ad6 *R/ggram.R
 2c1a652577b249ef5784babda339eacc *R/methods.R
-9869a8c2f6ebd6bafe1286e2f07a257e *R/ngram.R
+5fd97afc517708e4a2cfd35b0bbad323 *R/ngram.R
 99d11ad02affdf347efe1938e0e1ad13 *R/ngrami.R
 f5f2cfc5e4a4a752f1ed37b71d041b4a *R/ngramr-package.R
 d4683a7c9f7abcdd7ce8910d985623c3 *R/ngramw.R
@@ -26,4 +26,4 @@ fab364a2e3cc97171875077d148efb6b *man/print.ngram.Rd
 db2bb99ca21c6c59fe0d08f4c9d68799 *man/theme_google.Rd
 0e4eb79ab3bf9c1cc827a2151cc92e26 *tests/results.txt
 e3c2a40eb8a7ef35b3eb3da86a3d3605 *tests/testthat.R
-bfcd2c8ad63918c4db587587c8bb4a75 *tests/testthat/test-ngramr.R
+2c365cdd1c61904b4a1e534bf46234b5 *tests/testthat/test-ngramr.R
