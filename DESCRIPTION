@@ -1,7 +1,7 @@
 Package: ngramr
 Type: Package
 Title: Retrieve and Plot Google n-Gram Data
-Version: 1.8.1
+Version: 1.8.2
 Date: 2022-09-10
 Authors@R: c(
     person("Sean", "Carmody", email = "seancarmody@gmail.com", role = c("aut", "cre", "cph"))
@@ -20,7 +20,7 @@ Encoding: UTF-8
 Suggests: testthat
 Language: en-AU
 NeedsCompilation: no
-Packaged: 2022-09-18 03:55:57 UTC; sean
+Packaged: 2022-09-20 11:55:40 UTC; sean
 Author: Sean Carmody [aut, cre, cph]
 Repository: CRAN
-Date/Publication: 2022-09-18 09:16:03 UTC
+Date/Publication: 2022-09-20 22:40:02 UTC
