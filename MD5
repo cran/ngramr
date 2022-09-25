@@ -1,14 +1,14 @@
-41cba31d8e5fc006e71b2a2e130b3bc5 *DESCRIPTION
+7e6ae72871b59e4ce16d854c973ac43d *DESCRIPTION
 11e21370752ce0e6176db6db319fae73 *NAMESPACE
-dd5103d0472e3b5ad2955d0a924dd886 *NEWS.md
+3a22d1ec574079a859ee0eb500b85b19 *NEWS.md
 139acfb604c5287e426bde697c2dfe1e *R/add_count.R
 9d8ccdcd2a11f37eaa97a4054ba80f4e *R/data.R
-afb1b58d52983b9c1612c9d9be538875 *R/ggram.R
+bf2e21a41a64d897325a5d5406a5c4e6 *R/ggram.R
 1ff548ae5353c2564338081b91577d46 *R/methods.R
-5fd97afc517708e4a2cfd35b0bbad323 *R/ngram.R
+61f7b3c50a5dec3518c1676991f53e76 *R/ngram.R
 99d11ad02affdf347efe1938e0e1ad13 *R/ngrami.R
 f5f2cfc5e4a4a752f1ed37b71d041b4a *R/ngramr-package.R
-d4683a7c9f7abcdd7ce8910d985623c3 *R/ngramw.R
+c5e0a017e89ea2079b4f00798dfd6e80 *R/ngramw.R
 d81fabcf18435004bc5efb84a50ead45 *R/sysdata.rda
 f1fcbe1dae7ba6c388efeb2a10557c14 *R/themes.R
 a0fe283a3b6f32bc93c5ab3336b5552d *R/utilities.R
@@ -18,7 +18,7 @@ bfaa57e3a7c7e2e5c83cf3547a3da8bb *man/corpuses.Rd
 050afd80801afef748e077598ae36589 *man/figures/hacker.png
 e5c1b42cee7fe80a3036de56632cf7d2 *man/ggram.Rd
 b5a842db10e2f4a73d6b56b0a05f35c1 *man/hacker.Rd
-5d23db9115ecc1900c26c2f952e71bd1 *man/ngram.Rd
+75b4548b857cb9ae571496be37c048dc *man/ngram.Rd
 a381ddbc23f4148ce470b6b027655b8c *man/ngrami.Rd
 aa3d122960e9eaa2f8e68edb015bed43 *man/ngramr.Rd
 11b65cc4a1743ca6983998b1e05e0d64 *man/ngramw.Rd
@@ -26,4 +26,4 @@ f4e5e4c5c4a6cc03b943b6056f8d1643 *man/print.ngram.Rd
 db2bb99ca21c6c59fe0d08f4c9d68799 *man/theme_google.Rd
 0e4eb79ab3bf9c1cc827a2151cc92e26 *tests/results.txt
 e3c2a40eb8a7ef35b3eb3da86a3d3605 *tests/testthat.R
-2c365cdd1c61904b4a1e534bf46234b5 *tests/testthat/test-ngramr.R
+a1b5fd7631e47c78bffbd41b4bb87e77 *tests/testthat/test-ngramr.R

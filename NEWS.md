@@ -1,6 +1,10 @@
+# ngramr 1.8.3
+
+* Improved error handling
+
 # ngramr 1.8.2
 
-* Suppress testing of all examples that make internet calls
+* Suppress testing of all examples that make internet calls (fail gracefully)
 
 # ngramr 1.8.1
 
