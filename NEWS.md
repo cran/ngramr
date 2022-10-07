@@ -1,3 +1,7 @@
+# ngramr 1.9.0
+
+* Fix package after latest changes to the Google Ngram Viewer website
+
 # ngramr 1.8.3
 
 * Improved error handling
@@ -129,7 +133,7 @@ release fixes this major problem.
 
 # ngramr 1.2.3
 
-* Prevent use of complex operators in case insensitive searchs
+* Prevent use of complex operators in case insensitive searches
 * Warn about character substitution
 
 # ngramr 1.2.2
