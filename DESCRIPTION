@@ -1,8 +1,8 @@
 Package: ngramr
 Type: Package
 Title: Retrieve and Plot Google n-Gram Data
-Version: 1.9.3
-Date: 2023-01-16
+Version: 1.10.0
+Date: 2025-01-10
 Authors@R: c(
     person("Sean", "Carmody", email = "seancarmody@gmail.com", role = c("aut", "cre", "cph"))
     )
@@ -15,12 +15,12 @@ Imports: httr, rlang, curl, dplyr (>= 1.0.3), cli, tibble, tidyr,
 URL: https://github.com/seancarmody/ngramr
 BugReports: https://github.com/seancarmody/ngramr/issues
 License: MIT + file LICENSE
-RoxygenNote: 7.2.2
+RoxygenNote: 7.3.2
 Encoding: UTF-8
 Suggests: testthat
 Language: en-AU
 NeedsCompilation: no
-Packaged: 2023-01-16 10:39:17 UTC; sean
+Packaged: 2025-01-10 21:54:28 UTC; sean
 Author: Sean Carmody [aut, cre, cph]
 Repository: CRAN
-Date/Publication: 2023-01-16 11:30:02 UTC
+Date/Publication: 2025-01-10 22:10:02 UTC

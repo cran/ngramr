@@ -3,7 +3,6 @@
 \docType{package}
 \name{ngramr}
 \alias{ngramr}
-\alias{_PACKAGE}
 \alias{ngramr-package}
 \title{ngramr: Dig into the Google Ngram Viewer using R}
 \description{
@@ -19,10 +18,11 @@ The key function is \code{ngram} which, given a collection of
 phrases, returns a dataframe containing the frequencies by year.
 
 The code is based on the \code{getNgrams.py} Python script available on
-\href{http://www.culturomics.org/Resources/get-ngrams}{Culturomics Code}
-written by Jean-Baptiste Michel. The
-\href{http://www.culturomics.org/home}{Culturomics}
-website itself is worth exploring.
+\href{https://web.archive.org/web/20221129120802/https://www.culturomics.org/}{Culturomics Code}
+written by Jean-Baptiste Michel. The Culturomics website doesn't
+exist anymore but can still be find
+\href{https://web.archive.org/web/20221129220150/https://www.culturomics.org/Resources/get-ngrams}{on archive.org}
+and is worth exploring.
 
 Note that compared to the 2009 versions, the 2012 and 2019 versions have
 larger numbers of books, improved OCR, improved library and publisher
